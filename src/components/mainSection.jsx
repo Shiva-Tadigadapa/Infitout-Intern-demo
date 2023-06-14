@@ -16,7 +16,7 @@ const MainSection = ({ isActive2 }) => {
               <th className="pr-28 ">LTP</th>
               <th></th>
             </div>
-            <div className="  absolute -top-[1%]  ml-[39px] flex items-center justify-center bg-[#efe8fb]  pb-2.5 px-6 pt-2.5   border border-l-[#d5bcfe] border-b-[#d5bcfe] border-r-[#d5bcfe]">
+            <div className="  absolute -top-[1%]  ml-[39px] flex items-center justify-center bg-[#efe8fb]  pb-2.5 px-6 pt-2.5   border border-l-[#d5bcfe]  border-r-[#d5bcfe]">
               <th className="">Strike</th>
             </div>
             <div className="border-b-[#99b8ed] w-[100%] flex items-center justify-evenly    border-x-transparent border-t-transparent border p-2 ">

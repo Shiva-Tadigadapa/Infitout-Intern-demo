@@ -2,7 +2,8 @@ import NavBar2 from "../components/navBar2"
 import MainSection from "./mainSection";
 import Filter from "./filter";
 import img from "./logo.jpg"
-
+import {MdOutlineKeyboardArrowDown} from "react-icons/md"
+import {FaChevronDown} from "react-icons/fa"
 function NavBar({}) {
   return (
     <>
@@ -65,8 +66,10 @@ function NavBar({}) {
               </div>
           </div>
           <div className="felx items-center">
-            <div>
-                <p>Profile</p>
+            <div className="flex items-center justify-center ">
+                <p className="mr-2">Profile  
+                </p>
+                <FaChevronDown/>
             </div>
           </div>
         </div>

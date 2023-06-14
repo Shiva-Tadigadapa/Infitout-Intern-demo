@@ -34,7 +34,7 @@ const NavBar2 = () => {
 
   return (
     <>
-    <div className="flex justify-around items-center mt-10">
+    <div className="flex justify-around  font-serif items-center mt-10">
       <div className="flex justify-between">
         <div className="relative mr-3">
           <input
@@ -96,15 +96,15 @@ const NavBar2 = () => {
           <p className="text-sm">Max pain</p>
           <p className="text-black  tracking-normal font-medium">18,200</p>
         </div>
-        <div className="mr-3">
+        <div className="ml-6">
           <p className="text-sm">PCR</p>
           <p className="text-black tracking-normal font-medium">0.92</p>
         </div>
-        <div className="mr-3">
+        <div className="ml-6">
           <p className="text-sm">Support</p>
           <p className="text-black tracking-normal font-medium">18100</p>
         </div>
-        <div className="mr-3">
+        <div className="ml-8">
           <p className="text-sm">Resistance</p> 
           <p className="text-black tracking-normal font-medium">18500</p>
         </div>
@@ -112,15 +112,15 @@ const NavBar2 = () => {
       <div className="flex justify-center items-center">
         <div className="mr-8 cursor-pointer   relative">
           <img src="" alt="" />
-          <button className="" onClick={hideout2}>Filter</button>
+          <button className=" text-lg" onClick={hideout2}>Filters</button>
           {
       isActive3? (
         
         <>
-        <div className="bg-white right-4 top-8  absolute z-[1]     p-4 shadow-lg">
+        <div className="bg-white right-4 top-8  absolute z-[1]     p-5 shadow-lg">
           <div className="flex  font-bold justify-between text-base">
             <p>Filters</p>
-            <button onClick={hideout2}>X</button>
+            <button  className=" font-thin"onClick={hideout2}>X</button>
           </div>
           <div className="text-xs mt-3.5">
             <p  className="text-xs text-black">LTP range</p>
@@ -159,15 +159,14 @@ const NavBar2 = () => {
       ):(<> </>)
     }
         </div>
-        <div className="flex  ">
+        <div className="flex ">
 
         <div onClick={hideOut} className="bg-[#2c57f5] hover:cursor-pointer text-white/90 text-sm px-9 py-2">
           <div>
             <button>Basket</button>
           </div>
         </div>
-        <div className="felx -ml-3 -mt-2  items-center justify-center">
-
+        <div className="felx -ml-3  -mt-2  items-center justify-center">
             <span className=" flex  items-center justify-center  bg-yellow-300 h-[20px] w-[20px]   rounded-full text-xs">3</span>
         </div>
         </div>
