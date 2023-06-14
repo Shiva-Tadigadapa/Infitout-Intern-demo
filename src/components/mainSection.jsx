@@ -30,7 +30,7 @@ const MainSection = ({ isActive2 }) => {
             </div>
           </tr>
 
-          <Wio className="  text-base block  overflow-scroll  relative   h-[399px]">
+          <Wio className="  text-base block  overflow-scroll  relative   h-[435px]">
             {Array.from({ length: 12 }).map((_, index) =>
               index >= 10 ? (
                 <>
