@@ -4,9 +4,9 @@ import Filter from "./filter";
 const MainSection = ({ isActive2 }) => {
   return (
     <>
-      <div className="   relative   left-40 overflow-hidden top-20   ">
+      <div className="   relative  text-lg  left-40 overflow-hidden top-28   ">
         <table className="  ">
-          <tr className="  text-sm flex   justify-evenly bg-[#e8effb] ">
+          <tr className="  text-base flex   justify-evenly bg-[#e8effb] ">
             <div className="border-b-[#99b8ed] w-[100%] flex items-center justify-evenly    border-x-transparent border-t-transparent border p-2">
               <th className="pr-10">OI Buildup</th>
               <th className="pr-3">IV</th>
@@ -30,7 +30,7 @@ const MainSection = ({ isActive2 }) => {
             </div>
           </tr>
 
-          <Wio className="  text-sm block  overflow-scroll  relative   h-[399px]">
+          <Wio className="  text-base block  overflow-scroll  relative   h-[399px]">
             {Array.from({ length: 12 }).map((_, index) =>
               index >= 10 ? (
                 <>
