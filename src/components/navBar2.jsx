@@ -115,6 +115,7 @@ const NavBar2 = () => {
           <button className="" onClick={hideout2}>Filter</button>
           {
       isActive3? (
+        
         <>
         <div className="bg-white right-4 top-8  absolute z-[1]     p-4 shadow-lg">
           <div className="flex  font-bold justify-between text-base">
